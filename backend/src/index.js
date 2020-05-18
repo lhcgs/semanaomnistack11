@@ -10,6 +10,8 @@ app.use(routes);
 
 app.listen(3333);
 
+console.log('Executando na porta 3333')
+
 //  Rota / Recurso
 //
 // Métodos HTTP:
@@ -23,7 +25,7 @@ app.listen(3333);
  * Tipos de parâmetros:
  * Query Params: Parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
  * Route Params: Parâmetros utilizados para identificar recursos após a "/:"
- * Request Body: Corpo da requsição, utilizado para criar ou alterar recursos
+ * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
  */
 
 /**
